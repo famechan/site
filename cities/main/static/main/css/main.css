@@ -66,7 +66,7 @@ aside ul li:hover, aside ul a:hover {
 main .row-title {
     display: block;
     position: relative;
-    color: darkorange;
+    color: FireBrick;
     left: 500px;
 }
 
