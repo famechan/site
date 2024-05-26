@@ -1,5 +1,5 @@
 body {
-    background: LemonChiffon;
+    background: #fff;
     font-family: 'Verdana', sans-serif;
 }
 
@@ -7,25 +7,24 @@ aside {
     position: sticky;
     top: 0;
     float: left;
-    background: PeachPuff;
+    background: salmon;
     width: 17%;
     padding: 0.5%;
     height: 100vh;
-    color: darkorange;
-    border-right: 5px solid darkorange;
+    color: FireBrick;
+    border-right: 5px solid FireBrick;
 }
 
 aside .main {
     position: relative;
     margin-left: 4px;
     list-style: none;
-    color: black;
+    color: FireBrick;
     font-size: 34px;
     padding-top: 10%;
     padding-left: 3.5%;
     position: relative;
     top: 30px;
-    color: darkorange;
     font-weight: bold;
 
 }
@@ -36,7 +35,7 @@ aside span a, aside span li{
 }
 
 aside span a:hover, aside span li:hover {
-    color: Chocolate;
+    color: FireBrick;
     transform: scale(1.02);
 }
 
@@ -50,7 +49,7 @@ aside ul {
 }
 
 aside ul li, aside ul a{
-    color: #000;
+    color: #fff;
     display: block;
     margin-top: 20px;
     text-decoration: none;
@@ -59,7 +58,7 @@ aside ul li, aside ul a{
 }
 
 aside ul li:hover, aside ul a:hover {
-    color: darkorange;
+    color: FireBrick;
     text-decoration: none;
     transform: scale(1.02);
 }
@@ -110,7 +109,7 @@ main .label-img__text{
 hr {
     position: relative;
     display: block;
-    background: orange;
+    background: red;
     border: none;
     height: 3px;
     margin: 50px 0;
@@ -119,7 +118,7 @@ hr {
 main .qwerty{
     position: relative;
     display: block;
-    background: orange;
+    background: red;
     border: none;
     height: 3px;
     margin: 50px 0;
@@ -150,5 +149,5 @@ main .qwerty{
 }
 
 .mt0{
-    color: darkorange;
+    color: FireBrick;
 }
