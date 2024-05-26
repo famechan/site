@@ -92,7 +92,7 @@ main .row-main{
 
 main mark{
     color: #fff;
-    background: darkorange;
+    background: FireBrick;
 }
 
 main p{
@@ -131,7 +131,7 @@ main .qwerty{
     line-height: 32px;
     font-weight: 600;
     text-transform: uppercase;
-    color: darkorange;
+    color: FireBrick;
     padding: 55px 0;
 }
 
