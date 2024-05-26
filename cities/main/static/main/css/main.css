@@ -1,9 +1,11 @@
 body {
     background: LemonChiffon;
-    font-family: "FuturaPT", "Arial", sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 aside {
+    position: sticky;
+    top: 0;
     float: left;
     background: PeachPuff;
     width: 17%;
@@ -18,8 +20,9 @@ aside .main {
     margin-left: 4px;
     list-style: none;
     color: black;
-    font-size: 40px;
-    padding: 3.5%;
+    font-size: 34px;
+    padding-top: 10%;
+    padding-left: 3.5%;
     position: relative;
     top: 30px;
     color: darkorange;
@@ -69,7 +72,7 @@ main .row-title {
 }
 
 main h1 {
-position: relative;
+    position: relative;
     top: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -91,4 +94,57 @@ main .row-main{
 main mark{
     color: #fff;
     background: darkorange;
+}
+
+main p{
+    font-size: 17px;
+}
+
+main .label-img__text{
+    font-style: italic;
+    color: dimgray;
+    position: relative;
+    top: -8px;
+}
+
+hr {
+    position: relative;
+    display: block;
+    background: orange;
+    border: none;
+    height: 3px;
+    margin: 50px 0;
+}
+
+main .qwerty{
+    position: relative;
+    display: block;
+    background: orange;
+    border: none;
+    height: 3px;
+    margin: 50px 0;
+    left: 33px;
+    width: 96.5%;
+}
+
+.city-inner__h {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: darkorange;
+    padding: 55px 0;
+}
+
+.city-inner__img {
+    position: relative;
+    display: block;
+    left: -100px;
+    top: -50px;
+}
+
+.row .article h3{
+    position: relative;
+    padding-top: 3%;
+    font-weight: bold;
 }
